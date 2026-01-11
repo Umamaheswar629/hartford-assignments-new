@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Insurance Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-6 bg-gray-100">
+
+<h1 class="text-2xl font-bold mb-4">Customer Dashboard</h1>
+
+<form id="customerForm" class="bg-white p-4 rounded shadow w-full max-w-md">
+
+  <input id="cname" type="text" placeholder="Customer Name"
+    class="border p-2 w-full mb-3">
+
+  <input id="age" type="number" placeholder="Age"
+    class="border p-2 w-full mb-3">
+
+  <select id="policy" class="border p-2 w-full mb-3">
+    <option value="">Select Policy</option>
+    <option>Health</option>
+    <option>Life</option>
+    <option>Vehicle</option>
+  </select>
+  <label class="block mb-1 font-medium">
+    Coverage Amount (in Lakhs):
+    <span id="coverageValue" class="font-bold text-blue-600">1</span>L
+  </label>
+
+  <input
+    type="range"
+    id="coverage"
+    min="1"
+    max="10"
+    value="1"
+    class="w-full mb-4"
+  >
+  <button class="bg-blue-500 text-white px-4 py-2 rounded w-full">
+    Add Customer
+  </button>
+</form>
+
+<table class="mt-6 border w-full bg-white">
+  <thead class="bg-gray-200">
+    <tr>
+      <th class="border p-2">Name</th>
+      <th class="border p-2">Age</th>
+      <th class="border p-2">Policy</th>
+      <th class="border p-2">Coverage (L)</th>
+      <th class="border p-2">Premium (₹)</th>
+    </tr>
+  </thead>
+  <tbody id="tableBody"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>

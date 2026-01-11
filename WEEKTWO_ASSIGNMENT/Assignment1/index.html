@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Insurance Enquiry & Feedback</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Insurance Enquiry & Feedback</h2>
+    <p>Please fill the form below</p>
+
+    <form id="enquiryForm">
+      <input type="text" id="name" placeholder="Full Name">
+      <small class="error" id="nameError"></small>
+
+      <input type="email" id="email" placeholder="Email">
+      <small class="error" id="emailError"></small>
+
+      <input type="tel" id="mobile" placeholder="Mobile Number">
+      <small class="error" id="mobileError"></small>
+
+      <select id="request">
+        <option value="">Select Request Type</option>
+        <option>Policy Enquiry</option>
+        <option>Claim Related</option>
+        <option>Feedback</option>
+      </select>
+      <small class="error" id="requestError"></small>
+
+      <select id="policy">
+        <option value="">Select Policy Type</option>
+        <option>Health Insurance</option>
+        <option>Life Insurance</option>
+        <option>Vehicle Insurance</option>
+        <option>Home Insurance</option>
+      </select>
+      <small class="error" id="policyError"></small>
+
+      <textarea id="message" placeholder="Message"></textarea>
+      <small class="error" id="messageError"></small>
+
+      <div>
+        Rating:
+        <input type="radio" name="rating" value="1">1
+        <input type="radio" name="rating" value="2">2
+        <input type="radio" name="rating" value="3">3
+        <input type="radio" name="rating" value="4">4
+        <input type="radio" name="rating" value="5">5
+      </div>
+      <small class="error" id="ratingError"></small>
+
+      <button type="submit">Submit</button>
+      <p id="success"></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
