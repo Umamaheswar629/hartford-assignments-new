@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Online Banking Dashboard</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+
+  <h1 class="text-3xl font-bold text-center mb-6">
+    🏦 Online Banking Operations Dashboard
+  </h1>
+
+  <!-- Loader -->
+  <div id="loader" class="text-center text-lg hidden">
+    Loading accounts...
+  </div>
+
+  <!-- Error -->
+  <div id="error" class="text-red-600 text-center mb-4"></div>
+
+  <!-- Controls -->
+  <div class="flex flex-wrap gap-4 mb-6 justify-center">
+    <input id="searchInput" type="text" placeholder="Search by name"
+      class="p-2 border rounded">
+
+    <select id="branchFilter" class="p-2 border rounded">
+      <option value="">All Branches</option>
+    </select>
+
+    <button id="sortBtn"
+      class="bg-blue-600 text-white px-4 py-2 rounded">
+      Sort by Balance ↓
+    </button>
+  </div>
+
+  <!-- Total Balance -->
+  <div class="text-center font-semibold mb-4">
+    Total Bank Balance: ₹<span id="totalBalance">0</span>
+  </div>
+
+  <!-- Account Table -->
+  <div class="overflow-x-auto">
+    <table class="w-full bg-white shadow rounded">
+      <thead class="bg-gray-200">
+        <tr>
+          <th class="p-2">Acc No</th>
+          <th class="p-2">Name</th>
+          <th class="p-2">Email</th>
+          <th class="p-2">Branch</th>
+          <th class="p-2">Balance</th>
+          <th class="p-2">Actions</th>
+        </tr>
+      </thead>
+      <tbody id="accountsTable"></tbody>
+    </table>
+  </div>
+
+  <!-- Create Account -->
+  <div class="bg-white p-4 mt-6 rounded shadow max-w-md mx-auto">
+    <h2 class="font-bold mb-3">➕ Create New Account</h2>
+    <input id="newName" placeholder="Name" class="w-full p-2 border mb-2">
+    <input id="newEmail" placeholder="Email" class="w-full p-2 border mb-2">
+    <input id="newBranch" placeholder="Branch" class="w-full p-2 border mb-2">
+    <button id="createBtn"
+      class="w-full bg-green-600 text-white py-2 rounded">
+      Create Account
+    </button>
+  </div>
+
+  <!-- Transaction History Modal -->
+  <div id="historyModal"
+    class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center">
+    <div class="bg-white p-4 rounded w-96">
+      <h3 class="font-bold mb-2">Transaction History</h3>
+      <ul id="historyList" class="text-sm max-h-60 overflow-y-auto"></ul>
+      <button onclick="closeHistory()"
+        class="mt-3 bg-red-500 text-white px-3 py-1 rounded">
+        Close
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
