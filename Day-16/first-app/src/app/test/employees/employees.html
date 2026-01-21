@@ -1,0 +1,13 @@
+<p>ffgyrfi</p>
+@for(employee of employees;track employee.id){
+    <div class="employee-card">
+        <img [src]="employee.imageUrl" alt="{{ employee.name }}" class="employee-image" />
+        <div class="employee-details">
+        <h3>{{ employee.name }}</h3>
+        <p><strong>Salary:</strong> ${{ employee.salary }}</p>
+        <p><strong>Phone No:</strong> {{ employee.phoneNo }}</p>
+        <p><strong>Date of Joining:</strong> {{ employee.dateOfJoining | date:'longDate' }}</p>
+        </div>
+    </div>
+}
+ 

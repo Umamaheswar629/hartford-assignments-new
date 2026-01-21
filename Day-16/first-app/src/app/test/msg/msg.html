@@ -1,0 +1,9 @@
+<p>msg works!</p>
+<input type="text" [(ngModel)]="message"/>
+<p>{{message}}</p>
+<button (click)="addData()">Add Message</button>
+<ul>
+@for(msg of messages;track msg) {
+  <li>{{msg}}</li>
+}
+</ul>
