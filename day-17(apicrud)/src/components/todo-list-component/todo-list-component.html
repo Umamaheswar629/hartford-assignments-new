@@ -1,0 +1,46 @@
+<div class="p-6 max-w-md mx-auto bg-white shadow rounded">
+
+  <h2 class="text-xl font-semibold mb-4 text-center">
+    Todo List
+  </h2>
+
+  <div class="flex gap-2 mb-4">
+    <button
+      (click)="getTodos()"
+      class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+      Load Todos
+    </button>
+
+    <button
+      (click)="addTodos()"
+      class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+      Add Todo
+    </button>
+  </div>
+
+  <ul class="space-y-2">
+    <li
+      *ngFor="let todo of todos"
+      class="flex justify-between items-center p-2 border rounded">
+
+      <span class="text-gray-700">
+        {{ todo.title }}
+      </span>
+
+      <div class="flex gap-2">
+        <button
+          (click)="updateTodo(todo)"
+          class="bg-yellow-400 text-white px-2 py-1 rounded hover:bg-yellow-500">
+          Update
+        </button>
+
+        <button
+          (click)="deleteTodo(todo.id)"
+          class="bg-red-500 text-white px-2 py-1 rounded hover:bg-red-600">
+          Delete
+        </button>
+      </div>
+    </li>
+  </ul>
+
+</div>
