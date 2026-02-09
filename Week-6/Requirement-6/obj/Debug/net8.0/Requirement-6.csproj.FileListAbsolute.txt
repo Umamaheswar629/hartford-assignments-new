@@ -1,0 +1,14 @@
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week-6\Requirement-6\bin\Debug\net8.0\Requirement-6.exe
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week-6\Requirement-6\bin\Debug\net8.0\Requirement-6.deps.json
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week-6\Requirement-6\bin\Debug\net8.0\Requirement-6.runtimeconfig.json
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week-6\Requirement-6\bin\Debug\net8.0\Requirement-6.dll
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week-6\Requirement-6\bin\Debug\net8.0\Requirement-6.pdb
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week-6\Requirement-6\obj\Debug\net8.0\Requirement-6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week-6\Requirement-6\obj\Debug\net8.0\Requirement-6.AssemblyInfoInputs.cache
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week-6\Requirement-6\obj\Debug\net8.0\Requirement-6.AssemblyInfo.cs
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week-6\Requirement-6\obj\Debug\net8.0\Requirement-6.csproj.CoreCompileInputs.cache
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week-6\Requirement-6\obj\Debug\net8.0\Requirement-6.dll
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week-6\Requirement-6\obj\Debug\net8.0\refint\Requirement-6.dll
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week-6\Requirement-6\obj\Debug\net8.0\Requirement-6.pdb
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week-6\Requirement-6\obj\Debug\net8.0\Requirement-6.genruntimeconfig.cache
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week-6\Requirement-6\obj\Debug\net8.0\ref\Requirement-6.dll
