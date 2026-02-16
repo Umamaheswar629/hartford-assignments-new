@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\ProductsScaff\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6DEA122-2A27-4D5F-89C7-B89C5C51CAC2}|ProductsScaff\\ProductsScaff.csproj|c:\\users\\umama\\onedrive\\desktop\\assignments\\dotnet\\productsscaff\\productsscaff\\controllers\\productsitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6DEA122-2A27-4D5F-89C7-B89C5C51CAC2}|ProductsScaff\\ProductsScaff.csproj|solutionrelative:productsscaff\\controllers\\productsitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6DEA122-2A27-4D5F-89C7-B89C5C51CAC2}|ProductsScaff\\ProductsScaff.csproj|c:\\users\\umama\\onedrive\\desktop\\assignments\\dotnet\\productsscaff\\productsscaff\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6DEA122-2A27-4D5F-89C7-B89C5C51CAC2}|ProductsScaff\\ProductsScaff.csproj|solutionrelative:productsscaff\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6DEA122-2A27-4D5F-89C7-B89C5C51CAC2}|ProductsScaff\\ProductsScaff.csproj|c:\\users\\umama\\onedrive\\desktop\\assignments\\dotnet\\productsscaff\\productsscaff\\controllers\\productsitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6DEA122-2A27-4D5F-89C7-B89C5C51CAC2}|ProductsScaff\\ProductsScaff.csproj|solutionrelative:productsscaff\\controllers\\productsitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6DEA122-2A27-4D5F-89C7-B89C5C51CAC2}|ProductsScaff\\ProductsScaff.csproj|c:\\users\\umama\\onedrive\\desktop\\assignments\\dotnet\\productsscaff\\productsscaff\\models\\productsitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,26 +34,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductsItemsController.cs",
               "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\ProductsScaff\\ProductsScaff\\Controllers\\ProductsItemsController.cs",
               "RelativeDocumentMoniker": "ProductsScaff\\Controllers\\ProductsItemsController.cs",
               "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\ProductsScaff\\ProductsScaff\\Controllers\\ProductsItemsController.cs",
               "RelativeToolTip": "ProductsScaff\\Controllers\\ProductsItemsController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-16T04:37:19.871Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\ProductsScaff\\ProductsScaff\\Program.cs",
               "RelativeDocumentMoniker": "ProductsScaff\\Program.cs",
               "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\ProductsScaff\\ProductsScaff\\Program.cs",
               "RelativeToolTip": "ProductsScaff\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBYAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-16T04:34:07.143Z",
               "EditorCaption": ""
@@ -68,8 +68,7 @@
               "RelativeToolTip": "ProductsScaff\\Models\\ProductContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T04:31:27.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T04:31:27.602Z"
             },
             {
               "$type": "Document",
@@ -81,8 +80,7 @@
               "RelativeToolTip": "ProductsScaff\\Models\\ProductsItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T04:30:11.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T04:30:11.826Z"
             }
           ]
         }
